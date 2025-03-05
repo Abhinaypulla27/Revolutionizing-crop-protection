@@ -1,0 +1,43 @@
+.results {
+  max-width: 700px;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
+}
+
+.grid-container {
+  padding: 1rem 0;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.results figure {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.results figure img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.results figcaption {
+  color: dodgerblue;
+  font-size: large;
+  padding: 10px;
+}
+
+.disease-treatment h2 {
+  margin-bottom: 1.5rem;
+}
+
+.disease-treatment li {
+  margin-bottom: 5px;
+}
+
+.prediction h1 {
+  margin: 10px 0;
+}
